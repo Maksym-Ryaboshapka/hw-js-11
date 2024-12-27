@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+button {
+  color: #000;
+  background-color: #fff;
+}
+
+button:disabled {
+  background-color: #fbf5f5ca;
+}
+
+body {
+  background-color: #000;
+}
+
+.task-2 {
+  position: relative;
+}
+
+.task-2__animation {
+  position: absolute;
+  top: -40px;
+  left: -20px;
+
+  width: 200px;
+  height: 200px;
+
+  pointer-events: none;
+  opacity: 0;
+}

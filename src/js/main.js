@@ -56,6 +56,8 @@ task2StartTimer.addEventListener("click", () => {
       clearInterval(timer);
       task2StartTimer.removeAttribute("disabled");
       task2Animation.style.opacity = "0";
+
+      task2Seconds.textContent = "30";
     } else if (commonMiliseconds === 10000) task2Animation.style.opacity = "1";
 
     const seconds = Math.floor(commonMiliseconds / 1000);
